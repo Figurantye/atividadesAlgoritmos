@@ -1,0 +1,11 @@
+1
+primeiro será impresso: 10
+em seguida: 10 5
+
+2
+10 10 10
+
+3
+let hora = leitor.question("quantas horas você trabalha por dia? )
+let dinheiro = leitor.question("quanto você recebe por dia? )
+console.log("você recebe ${dinheiro/hora} por hora")

@@ -1,0 +1,27 @@
+interp.txt
+1. O que o código abaixo está fazendo? Qual o resultado impresso no
+console? 
+5
+
+2. Leia o código abaixo:
+a) O que vai ser impresso no console?
+19
+21
+23
+25
+27
+30
+
+b) Se eu quisesse acessar o índice de cada elemento dessa lista, o
+for...of... é suficiente? Se sim, o que poderia ser usado para fazer
+isso?
+seria necessaria a função "entries()"
+const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30];
+
+for (let numero of lista.entries()) {
+  console.log(numero);
+}
+
+
+3. Qual seria o resultado impresso no console, se o usuário digitasse o
+número 4 ? ****
