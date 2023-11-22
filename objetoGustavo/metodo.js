@@ -30,3 +30,6 @@ function contaBancaria(titular, saldo, depositar, saque){
 function livro(titulo, autor, paginas){
     this.ler = "o livro esta sendo lido"
 }
+
+let carroDois = new carro("Nissan", "Fiesta", 2012)
+console.log(carroDois.info);
